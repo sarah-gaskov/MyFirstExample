@@ -14,7 +14,7 @@ int main()
     std::cout << "Multiplication: " << x * y << std::endl;
 	
     if (y == 0) {
-        std::cout << "Division by 0 is NaN" << std::endl;
+        std::cout << "Division by 0 is NaN!" << std::endl;
     } else {
 		std::cout << "Division: " << x / y << std::endl;
 	}
